@@ -32,7 +32,7 @@ div {
 .logo:hover {
   width: 35%;
   transition: 0.3s;
-  background-color: white;
+  background-color: rgb(166, 156, 156);
 }
 
 #navBar {
