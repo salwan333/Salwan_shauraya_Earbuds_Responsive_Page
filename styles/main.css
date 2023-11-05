@@ -60,7 +60,7 @@ div {
   padding: 220px 0px;
 }
 
-#aboutMe {
+#FEATURES {
   margin-top: 40px;
 }
 
@@ -81,7 +81,7 @@ section h1:hover {
   font-size: 40px;
 }
 
-#aboutMe .aboutimg {
+#FEATURES .about.img {
   width: 600px;
   background-color: var(--primary-color);
   border-radius: 20px;
@@ -91,12 +91,12 @@ section h1:hover {
   padding: 220px 0px;
 }
 
-#aboutMe .aboutimg:hover {
+#FEATURES .about.img:hover {
   width: 650px;
   transition: 1s;
 }
 
-#aboutMe p {
+#FEATURES p {
   width: 80%;
   font-size: larger;
   background-color: var(--primary-color);
@@ -112,12 +112,12 @@ hr {
   margin: 50px;
 }
 
-#portfolio h2 {
+#pallet h1 {
   font-size: xxx-large;
   font-weight: lighter;
 }
 
-#portfolioWorks {
+#Works {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 50px;
@@ -150,7 +150,7 @@ hr {
   color: var(--accent);
 }
 
-#skills {
+#AR.and.X-Ray {
   margin: 100px;
 }
 
@@ -164,11 +164,11 @@ hr {
   margin-right: auto;
 }
 
-#skills h3 {
+#AR.and.X-Ray h3 {
   font-size: x-large;
 }
 
-#skills h3:hover {
+#AR.and.X-Ray h3:hover {
   color: var(--accent);
 }
 
@@ -238,7 +238,7 @@ footer h3:hover {
     transition: 0.3s;
     background-color: white;
   }
-  #portfolio h2 {
+  #pallet h1 {
     font-size: xx-large;
   }
   .myWorks {
@@ -250,7 +250,7 @@ footer h3:hover {
   .myWorks div:hover {
     width: 110%;
   }
-  #skills {
+  #AR.and.X-Ray {
     margin: 70px;
   }
   .skill div {
@@ -267,14 +267,14 @@ footer h3:hover {
   }
 }
 @media only screen and (max-width: 768px) {
-  #aboutMe .aboutimg {
+  #FEATURES .about.img {
     width: 500px;
   }
-  #aboutMe .aboutimg:hover {
+  #FEATURES .about.img:hover {
     width: 550px;
     transition: 1s;
   }
-  #portfolioWorks {
+  #Works {
     grid-gap: 20px;
   }
   .myWorks {
@@ -286,82 +286,14 @@ footer h3:hover {
   .myWorks div:hover {
     width: 105%;
   }
-  #skills {
+  #AR.and.X-Ray {
     margin: 100px 50px;
   }
   .skill div {
     width: 500px;
   }
-  .contactUsForm {
+  contactUsForm {
     padding: 20px;
     width: 500px;
   }
-  .contactUsForm form {
-    width: 400px;
-    height: 200px;
-  }
-  footer {
-    padding: 50px 10px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .logo {
-    width: 70%;
-    margin: 20px 15%;
-    border-radius: 10px;
-    background-color: var(--background);
-    padding: 40px 0px;
-  }
-  .logo:hover {
-    width: 70%;
-  }
-  #navBar {
-    width: 70%;
-    margin: 20px 15%;
-    border-radius: 10px;
-    background-color: var(--background);
-    font-size: xx-large;
-    padding: 40px 0px;
-  }
-  #navBar:hover {
-    width: 70%;
-    background-color: white;
-  }
-  #aboutMe .aboutimg {
-    width: 350px;
-  }
-  #aboutMe .aboutimg:hover {
-    width: 370px;
-    transition: 1s;
-  }
-  #portfolioWorks {
-    grid-template-columns: auto;
-  }
-  .myWorks div {
-    width: 350px;
-    height: 280px;
-    border-radius: 20px;
-  }
-  .myWorks div:hover {
-    width: 400px;
-  }
-  #skills {
-    margin: 100px 0px;
-  }
-  .skill div {
-    width: 350px;
-  }
-  section h1 {
-    width: 300px;
-    padding: 15px 20px;
-  }
-  .contactUsForm {
-    width: 300px;
-  }
-  .contactUsForm form {
-    width: 200px;
-  }
-  .socialMedia {
-    grid-template-columns: auto;
-  }
-}/*# sourceMappingURL=main.css.map */
+ 
