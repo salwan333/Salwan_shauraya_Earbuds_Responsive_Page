@@ -5,6 +5,8 @@ I'm Shauraya Salwan, and I'm working toward earning a degree in Interactive Medi
 
 I combine technological know-how with creative imagination to create engaging and engrossing digital experiences for people across many platforms and sectors.
 
+This is my intractive earbuds page project.
+
 ## Participating
 
 
